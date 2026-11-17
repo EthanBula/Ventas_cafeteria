@@ -1,0 +1,2453 @@
+{
+  "metadata": {
+    "descripcion": "Reportes mensuales de proveedores de la cafetería universitaria durante 2025",
+    "total_reportes": 60,
+    "periodo": "2025-01-01 a 2025-12-31",
+    "proveedores": [
+      "Distribuidora Café Premium S.A.S.",
+      "Bebidas y Refrescos del Valle Ltda.",
+      "Panadería Industrial El Trigal S.A.",
+      "Frescos & Proteínas Corp.",
+      "Lácteos y Derivados San Miguel"
+    ],
+    "nota": "Los volúmenes de pedido decrecen ~20% linealmente a lo largo del año, reflejando la caída en ventas. Los campos de devoluciones y observaciones también reflejan la situación."
+  },
+  "reportes": [
+    {
+      "id_reporte": "RPT-0001",
+      "fecha_reporte": "2025-01-28",
+      "mes": "Enero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 332,
+        "unidades_devueltas": 6,
+        "unidades_netas": 326,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1245.0
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.4,
+      "observaciones": "Entrega puntual, sin novedades.",
+      "factor_demanda_relativo": 0.992
+    },
+    {
+      "id_reporte": "RPT-0013",
+      "fecha_reporte": "2025-01-28",
+      "mes": "Enero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 232,
+        "unidades_devueltas": 1,
+        "unidades_netas": 231,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 644.96
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.992
+    },
+    {
+      "id_reporte": "RPT-0025",
+      "fecha_reporte": "2025-01-28",
+      "mes": "Enero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 280,
+        "unidades_devueltas": 2,
+        "unidades_netas": 278,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 2002.0
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.992
+    },
+    {
+      "id_reporte": "RPT-0037",
+      "fecha_reporte": "2025-01-28",
+      "mes": "Enero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 292,
+        "unidades_devueltas": 4,
+        "unidades_netas": 288,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2271.76
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.6,
+      "observaciones": "Producto recibido en condiciones óptimas.",
+      "factor_demanda_relativo": 0.992
+    },
+    {
+      "id_reporte": "RPT-0049",
+      "fecha_reporte": "2025-01-28",
+      "mes": "Enero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 153,
+        "unidades_devueltas": 2,
+        "unidades_netas": 151,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 301.41
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 3.8,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.992
+    },
+    {
+      "id_reporte": "RPT-0002",
+      "fecha_reporte": "2025-02-28",
+      "mes": "Febrero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 304,
+        "unidades_devueltas": 5,
+        "unidades_netas": 299,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1140.0
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 3.8,
+      "observaciones": "Producto recibido en condiciones óptimas.",
+      "factor_demanda_relativo": 0.975
+    },
+    {
+      "id_reporte": "RPT-0014",
+      "fecha_reporte": "2025-02-28",
+      "mes": "Febrero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 249,
+        "unidades_devueltas": 0,
+        "unidades_netas": 249,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 692.22
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.7,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.975
+    },
+    {
+      "id_reporte": "RPT-0026",
+      "fecha_reporte": "2025-02-28",
+      "mes": "Febrero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 294,
+        "unidades_devueltas": 4,
+        "unidades_netas": 290,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 2102.1
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 3.7,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.975
+    },
+    {
+      "id_reporte": "RPT-0038",
+      "fecha_reporte": "2025-02-28",
+      "mes": "Febrero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 267,
+        "unidades_devueltas": 2,
+        "unidades_netas": 265,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2077.26
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 75.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.4,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.975
+    },
+    {
+      "id_reporte": "RPT-0050",
+      "fecha_reporte": "2025-02-28",
+      "mes": "Febrero",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 159,
+        "unidades_devueltas": 1,
+        "unidades_netas": 158,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 313.23
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Sin novedad. Factura procesada.",
+      "factor_demanda_relativo": 0.975
+    },
+    {
+      "id_reporte": "RPT-0003",
+      "fecha_reporte": "2025-03-28",
+      "mes": "Marzo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 343,
+        "unidades_devueltas": 6,
+        "unidades_netas": 337,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1286.25
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.9,
+      "observaciones": "Producto recibido en condiciones óptimas.",
+      "factor_demanda_relativo": 0.96
+    },
+    {
+      "id_reporte": "RPT-0015",
+      "fecha_reporte": "2025-03-28",
+      "mes": "Marzo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 239,
+        "unidades_devueltas": 2,
+        "unidades_netas": 237,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 664.42
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 3.7,
+      "observaciones": "Sin novedad. Factura procesada.",
+      "factor_demanda_relativo": 0.96
+    },
+    {
+      "id_reporte": "RPT-0027",
+      "fecha_reporte": "2025-03-28",
+      "mes": "Marzo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 295,
+        "unidades_devueltas": 0,
+        "unidades_netas": 295,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 2109.25
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Entrega puntual, sin novedades.",
+      "factor_demanda_relativo": 0.96
+    },
+    {
+      "id_reporte": "RPT-0039",
+      "fecha_reporte": "2025-03-28",
+      "mes": "Marzo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 299,
+        "unidades_devueltas": 2,
+        "unidades_netas": 297,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2326.22
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.7,
+      "observaciones": "Pedido completo. Calidad dentro de estándares.",
+      "factor_demanda_relativo": 0.96
+    },
+    {
+      "id_reporte": "RPT-0051",
+      "fecha_reporte": "2025-03-28",
+      "mes": "Marzo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 148,
+        "unidades_devueltas": 0,
+        "unidades_netas": 148,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 291.56
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 3.8,
+      "observaciones": "Producto recibido en condiciones óptimas.",
+      "factor_demanda_relativo": 0.96
+    },
+    {
+      "id_reporte": "RPT-0004",
+      "fecha_reporte": "2025-04-28",
+      "mes": "Abril",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 325,
+        "unidades_devueltas": 3,
+        "unidades_netas": 322,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1218.75
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.0,
+      "observaciones": "Sin novedad. Factura procesada.",
+      "factor_demanda_relativo": 0.943
+    },
+    {
+      "id_reporte": "RPT-0016",
+      "fecha_reporte": "2025-04-28",
+      "mes": "Abril",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 219,
+        "unidades_devueltas": 2,
+        "unidades_netas": 217,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 608.82
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.4,
+      "observaciones": "Pedido completo. Calidad dentro de estándares.",
+      "factor_demanda_relativo": 0.943
+    },
+    {
+      "id_reporte": "RPT-0028",
+      "fecha_reporte": "2025-04-28",
+      "mes": "Abril",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 283,
+        "unidades_devueltas": 4,
+        "unidades_netas": 279,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 2023.45
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.7,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.943
+    },
+    {
+      "id_reporte": "RPT-0040",
+      "fecha_reporte": "2025-04-28",
+      "mes": "Abril",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 276,
+        "unidades_devueltas": 1,
+        "unidades_netas": 275,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2147.28
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.5,
+      "observaciones": "Sin novedad. Factura procesada.",
+      "factor_demanda_relativo": 0.943
+    },
+    {
+      "id_reporte": "RPT-0052",
+      "fecha_reporte": "2025-04-28",
+      "mes": "Abril",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 136,
+        "unidades_devueltas": 2,
+        "unidades_netas": 134,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 267.92
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Pedido completo. Calidad dentro de estándares.",
+      "factor_demanda_relativo": 0.943
+    },
+    {
+      "id_reporte": "RPT-0005",
+      "fecha_reporte": "2025-05-28",
+      "mes": "Mayo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 306,
+        "unidades_devueltas": 4,
+        "unidades_netas": 302,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1147.5
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.6,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.926
+    },
+    {
+      "id_reporte": "RPT-0017",
+      "fecha_reporte": "2025-05-28",
+      "mes": "Mayo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 209,
+        "unidades_devueltas": 0,
+        "unidades_netas": 209,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 581.02
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 75.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Se realizó verificación de cadena de frío. Todo conforme.",
+      "factor_demanda_relativo": 0.926
+    },
+    {
+      "id_reporte": "RPT-0029",
+      "fecha_reporte": "2025-05-28",
+      "mes": "Mayo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 270,
+        "unidades_devueltas": 2,
+        "unidades_netas": 268,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1930.5
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 3.6,
+      "observaciones": "Producto recibido en condiciones óptimas.",
+      "factor_demanda_relativo": 0.926
+    },
+    {
+      "id_reporte": "RPT-0041",
+      "fecha_reporte": "2025-05-28",
+      "mes": "Mayo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 261,
+        "unidades_devueltas": 4,
+        "unidades_netas": 257,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2030.58
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.7,
+      "observaciones": "Pedido completo. Calidad dentro de estándares.",
+      "factor_demanda_relativo": 0.926
+    },
+    {
+      "id_reporte": "RPT-0053",
+      "fecha_reporte": "2025-05-28",
+      "mes": "Mayo",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 143,
+        "unidades_devueltas": 0,
+        "unidades_netas": 143,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 281.71
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.9,
+      "observaciones": "Entrega puntual, sin novedades.",
+      "factor_demanda_relativo": 0.926
+    },
+    {
+      "id_reporte": "RPT-0006",
+      "fecha_reporte": "2025-06-28",
+      "mes": "Junio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 289,
+        "unidades_devueltas": 11,
+        "unidades_netas": 278,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1083.75
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 3.9,
+      "observaciones": "Se redujo el volumen de pedido respecto al mes anterior por baja demanda.",
+      "factor_demanda_relativo": 0.909
+    },
+    {
+      "id_reporte": "RPT-0018",
+      "fecha_reporte": "2025-06-28",
+      "mes": "Junio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 230,
+        "unidades_devueltas": 2,
+        "unidades_netas": 228,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 639.4
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Se ajustó pedido mínimo por disminución en el consumo.",
+      "factor_demanda_relativo": 0.909
+    },
+    {
+      "id_reporte": "RPT-0030",
+      "fecha_reporte": "2025-06-28",
+      "mes": "Junio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 242,
+        "unidades_devueltas": 10,
+        "unidades_netas": 232,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1730.3
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.4,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.909
+    },
+    {
+      "id_reporte": "RPT-0042",
+      "fecha_reporte": "2025-06-28",
+      "mes": "Junio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 252,
+        "unidades_devueltas": 11,
+        "unidades_netas": 241,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 1960.56
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 75.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.909
+    },
+    {
+      "id_reporte": "RPT-0054",
+      "fecha_reporte": "2025-06-28",
+      "mes": "Junio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 150,
+        "unidades_devueltas": 5,
+        "unidades_netas": 145,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 295.5
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.6,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.909
+    },
+    {
+      "id_reporte": "RPT-0007",
+      "fecha_reporte": "2025-07-28",
+      "mes": "Julio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 280,
+        "unidades_devueltas": 6,
+        "unidades_netas": 274,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1050.0
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.4,
+      "observaciones": "Volumen menor al proyectado inicialmente para este periodo.",
+      "factor_demanda_relativo": 0.893
+    },
+    {
+      "id_reporte": "RPT-0019",
+      "fecha_reporte": "2025-07-28",
+      "mes": "Julio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 215,
+        "unidades_devueltas": 7,
+        "unidades_netas": 208,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 597.7
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 66.7
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 5.0,
+      "observaciones": "Volumen menor al proyectado inicialmente para este periodo.",
+      "factor_demanda_relativo": 0.893
+    },
+    {
+      "id_reporte": "RPT-0031",
+      "fecha_reporte": "2025-07-28",
+      "mes": "Julio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 250,
+        "unidades_devueltas": 9,
+        "unidades_netas": 241,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1787.5
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 66.7
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 3.8,
+      "observaciones": "Se reprogramó entrega por exceso de inventario en cafetería.",
+      "factor_demanda_relativo": 0.893
+    },
+    {
+      "id_reporte": "RPT-0043",
+      "fecha_reporte": "2025-07-28",
+      "mes": "Julio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 273,
+        "unidades_devueltas": 3,
+        "unidades_netas": 270,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2123.94
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 66.7
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 3.6,
+      "observaciones": "Se reprogramó entrega por exceso de inventario en cafetería.",
+      "factor_demanda_relativo": 0.893
+    },
+    {
+      "id_reporte": "RPT-0055",
+      "fecha_reporte": "2025-07-28",
+      "mes": "Julio",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 131,
+        "unidades_devueltas": 4,
+        "unidades_netas": 127,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 258.07
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 3.6,
+      "observaciones": "Se redujo el volumen de pedido respecto al mes anterior por baja demanda.",
+      "factor_demanda_relativo": 0.893
+    },
+    {
+      "id_reporte": "RPT-0008",
+      "fecha_reporte": "2025-08-28",
+      "mes": "Agosto",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 301,
+        "unidades_devueltas": 4,
+        "unidades_netas": 297,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1128.75
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 75.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Se reprogramó entrega por exceso de inventario en cafetería.",
+      "factor_demanda_relativo": 0.876
+    },
+    {
+      "id_reporte": "RPT-0020",
+      "fecha_reporte": "2025-08-28",
+      "mes": "Agosto",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 226,
+        "unidades_devueltas": 4,
+        "unidades_netas": 222,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 628.28
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.5,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.876
+    },
+    {
+      "id_reporte": "RPT-0032",
+      "fecha_reporte": "2025-08-28",
+      "mes": "Agosto",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 238,
+        "unidades_devueltas": 3,
+        "unidades_netas": 235,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1701.7
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Se reprogramó entrega por exceso de inventario en cafetería.",
+      "factor_demanda_relativo": 0.876
+    },
+    {
+      "id_reporte": "RPT-0044",
+      "fecha_reporte": "2025-08-28",
+      "mes": "Agosto",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 245,
+        "unidades_devueltas": 2,
+        "unidades_netas": 243,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 1906.1
+      },
+      "entregas": {
+        "programadas": 4,
+        "cumplidas": 4,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 5.0,
+      "observaciones": "Se reprogramó entrega por exceso de inventario en cafetería.",
+      "factor_demanda_relativo": 0.876
+    },
+    {
+      "id_reporte": "RPT-0056",
+      "fecha_reporte": "2025-08-28",
+      "mes": "Agosto",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 133,
+        "unidades_devueltas": 5,
+        "unidades_netas": 128,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 262.01
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Se reprogramó entrega por exceso de inventario en cafetería.",
+      "factor_demanda_relativo": 0.876
+    },
+    {
+      "id_reporte": "RPT-0009",
+      "fecha_reporte": "2025-09-28",
+      "mes": "Septiembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 309,
+        "unidades_devueltas": 5,
+        "unidades_netas": 304,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1158.75
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.2,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.859
+    },
+    {
+      "id_reporte": "RPT-0021",
+      "fecha_reporte": "2025-09-28",
+      "mes": "Septiembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 218,
+        "unidades_devueltas": 9,
+        "unidades_netas": 209,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 606.04
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.7,
+      "observaciones": "Se redujo el volumen de pedido respecto al mes anterior por baja demanda.",
+      "factor_demanda_relativo": 0.859
+    },
+    {
+      "id_reporte": "RPT-0033",
+      "fecha_reporte": "2025-09-28",
+      "mes": "Septiembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 242,
+        "unidades_devueltas": 9,
+        "unidades_netas": 233,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1730.3
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Volumen menor al proyectado inicialmente para este periodo.",
+      "factor_demanda_relativo": 0.859
+    },
+    {
+      "id_reporte": "RPT-0045",
+      "fecha_reporte": "2025-09-28",
+      "mes": "Septiembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 270,
+        "unidades_devueltas": 13,
+        "unidades_netas": 257,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 2100.6
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Volumen menor al proyectado inicialmente para este periodo.",
+      "factor_demanda_relativo": 0.859
+    },
+    {
+      "id_reporte": "RPT-0057",
+      "fecha_reporte": "2025-09-28",
+      "mes": "Septiembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 139,
+        "unidades_devueltas": 1,
+        "unidades_netas": 138,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 273.83
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.1,
+      "observaciones": "Se ajustó pedido mínimo por disminución en el consumo.",
+      "factor_demanda_relativo": 0.859
+    },
+    {
+      "id_reporte": "RPT-0010",
+      "fecha_reporte": "2025-10-28",
+      "mes": "Octubre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 282,
+        "unidades_devueltas": 20,
+        "unidades_netas": 262,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 1057.5
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Volumen menor al proyectado inicialmente para este periodo.",
+      "factor_demanda_relativo": 0.842
+    },
+    {
+      "id_reporte": "RPT-0022",
+      "fecha_reporte": "2025-10-28",
+      "mes": "Octubre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 220,
+        "unidades_devueltas": 13,
+        "unidades_netas": 207,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 611.6
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 3.8,
+      "observaciones": "Volumen mínimo alcanzado. Riesgo de perder condiciones de precio mayorista.",
+      "factor_demanda_relativo": 0.842
+    },
+    {
+      "id_reporte": "RPT-0034",
+      "fecha_reporte": "2025-10-28",
+      "mes": "Octubre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 242,
+        "unidades_devueltas": 19,
+        "unidades_netas": 223,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1730.3
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.0,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.842
+    },
+    {
+      "id_reporte": "RPT-0046",
+      "fecha_reporte": "2025-10-28",
+      "mes": "Octubre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 234,
+        "unidades_devueltas": 16,
+        "unidades_netas": 218,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 1820.52
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 4.8,
+      "observaciones": "Pedido considerablemente menor al promedio histórico. Se sugiere reunión con administración.",
+      "factor_demanda_relativo": 0.842
+    },
+    {
+      "id_reporte": "RPT-0058",
+      "fecha_reporte": "2025-10-28",
+      "mes": "Octubre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 121,
+        "unidades_devueltas": 10,
+        "unidades_netas": 111,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 238.37
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 3.7,
+      "observaciones": "Volumen menor al proyectado inicialmente para este periodo.",
+      "factor_demanda_relativo": 0.842
+    },
+    {
+      "id_reporte": "RPT-0011",
+      "fecha_reporte": "2025-11-28",
+      "mes": "Noviembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 260,
+        "unidades_devueltas": 10,
+        "unidades_netas": 250,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 975.0
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Puntual",
+      "calificacion_servicio_proveedor": 4.6,
+      "observaciones": "Cliente solicitó reducir frecuencia de entrega a quincenal.",
+      "factor_demanda_relativo": 0.825
+    },
+    {
+      "id_reporte": "RPT-0023",
+      "fecha_reporte": "2025-11-28",
+      "mes": "Noviembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 188,
+        "unidades_devueltas": 18,
+        "unidades_netas": 170,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 522.64
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.3,
+      "observaciones": "Volumen mínimo alcanzado. Riesgo de perder condiciones de precio mayorista.",
+      "factor_demanda_relativo": 0.825
+    },
+    {
+      "id_reporte": "RPT-0035",
+      "fecha_reporte": "2025-11-28",
+      "mes": "Noviembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 231,
+        "unidades_devueltas": 21,
+        "unidades_netas": 210,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1651.65
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.1,
+      "observaciones": "Pedido considerablemente menor al promedio histórico. Se sugiere reunión con administración.",
+      "factor_demanda_relativo": 0.825
+    },
+    {
+      "id_reporte": "RPT-0047",
+      "fecha_reporte": "2025-11-28",
+      "mes": "Noviembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 233,
+        "unidades_devueltas": 16,
+        "unidades_netas": 217,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 1812.74
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 3.7,
+      "observaciones": "La cafetería ha solicitado suspender temporalmente la línea de Pechuga de pollo.",
+      "factor_demanda_relativo": 0.825
+    },
+    {
+      "id_reporte": "RPT-0059",
+      "fecha_reporte": "2025-11-28",
+      "mes": "Noviembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 120,
+        "unidades_devueltas": 6,
+        "unidades_netas": 114,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 236.4
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 4.2,
+      "observaciones": "Se negociaron nuevos plazos de pago por flujo de caja reducido del cliente.",
+      "factor_demanda_relativo": 0.825
+    },
+    {
+      "id_reporte": "RPT-0012",
+      "fecha_reporte": "2025-12-28",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Distribuidora Café Premium S.A.S.",
+        "nit": "900.123.456-7",
+        "contacto": "ventas@cafepremium.co",
+        "categoria": "Bebidas calientes"
+      },
+      "insumos_suministrados": [
+        "Café tostado molido (arabica)",
+        "Café tostado molido (blend)",
+        "Leche para espumar"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Americano",
+        "Café Latte",
+        "Capuccino"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 264,
+        "unidades_devueltas": 22,
+        "unidades_netas": 242,
+        "costo_unitario_promedio_usd": 3.75,
+        "costo_total_usd": 990.0
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 3.7,
+      "observaciones": "Se detectaron devoluciones por producto próximo a vencer (bajo rotación).",
+      "factor_demanda_relativo": 0.809
+    },
+    {
+      "id_reporte": "RPT-0024",
+      "fecha_reporte": "2025-12-28",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Bebidas y Refrescos del Valle Ltda.",
+        "nit": "800.654.321-0",
+        "contacto": "pedidos@bebidasvalle.com",
+        "categoria": "Bebidas frías"
+      },
+      "insumos_suministrados": [
+        "Té negro en hojas",
+        "Jarabe de frutas",
+        "Agua purificada 20L",
+        "Refrescos embotellados 350ml"
+      ],
+      "productos_cafeteria_asociados": [
+        "Té Helado",
+        "Agua Embotellada",
+        "Refresco"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 190,
+        "unidades_devueltas": 12,
+        "unidades_netas": 178,
+        "costo_unitario_promedio_usd": 2.78,
+        "costo_total_usd": 528.2
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 4.6,
+      "observaciones": "Pedido considerablemente menor al promedio histórico. Se sugiere reunión con administración.",
+      "factor_demanda_relativo": 0.809
+    },
+    {
+      "id_reporte": "RPT-0036",
+      "fecha_reporte": "2025-12-28",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Panadería Industrial El Trigal S.A.",
+        "nit": "901.987.654-3",
+        "contacto": "comercial@eltrigal.co",
+        "categoria": "Panadería y repostería"
+      },
+      "insumos_suministrados": [
+        "Pan para sandwich",
+        "Croissants pre-horneados",
+        "Masa de empanada",
+        "Mezcla para muffins",
+        "Masa para galletas"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Sandwich Vegetariano",
+        "Croissant",
+        "Empanada de Carne",
+        "Muffin de Arándanos",
+        "Galleta con Chispas"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 217,
+        "unidades_devueltas": 11,
+        "unidades_netas": 206,
+        "costo_unitario_promedio_usd": 7.15,
+        "costo_total_usd": 1551.55
+      },
+      "entregas": {
+        "programadas": 2,
+        "cumplidas": 2,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.4,
+      "observaciones": "Se negociaron nuevos plazos de pago por flujo de caja reducido del cliente.",
+      "factor_demanda_relativo": 0.809
+    },
+    {
+      "id_reporte": "RPT-0048",
+      "fecha_reporte": "2025-12-28",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Frescos & Proteínas Corp.",
+        "nit": "860.111.222-5",
+        "contacto": "logistica@frescosyproteinas.co",
+        "categoria": "Proteínas y frescos"
+      },
+      "insumos_suministrados": [
+        "Pechuga de pollo",
+        "Lechuga romana",
+        "Queso parmesano",
+        "Carne molida",
+        "Vegetales surtidos",
+        "Arándanos deshidratados"
+      ],
+      "productos_cafeteria_asociados": [
+        "Sandwich de Pollo",
+        "Ensalada César",
+        "Empanada de Carne",
+        "Sandwich Vegetariano",
+        "Muffin de Arándanos"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 231,
+        "unidades_devueltas": 11,
+        "unidades_netas": 220,
+        "costo_unitario_promedio_usd": 7.78,
+        "costo_total_usd": 1797.18
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso leve (1-5 días)",
+      "calificacion_servicio_proveedor": 4.5,
+      "observaciones": "Se redujo el volumen de pedido respecto al mes anterior por baja demanda.",
+      "factor_demanda_relativo": 0.809
+    },
+    {
+      "id_reporte": "RPT-0060",
+      "fecha_reporte": "2025-12-28",
+      "mes": "Diciembre",
+      "anio": 2025,
+      "proveedor": {
+        "nombre": "Lácteos y Derivados San Miguel",
+        "nit": "830.555.777-9",
+        "contacto": "ventas@lacteossanmiguel.com",
+        "categoria": "Lácteos e insumos"
+      },
+      "insumos_suministrados": [
+        "Leche entera 10L",
+        "Crema de leche",
+        "Mantequilla",
+        "Chispas de chocolate"
+      ],
+      "productos_cafeteria_asociados": [
+        "Café Latte",
+        "Capuccino",
+        "Galleta con Chispas",
+        "Croissant"
+      ],
+      "volumen_pedido": {
+        "unidades_solicitadas": 128,
+        "unidades_devueltas": 5,
+        "unidades_netas": 123,
+        "costo_unitario_promedio_usd": 1.97,
+        "costo_total_usd": 252.16
+      },
+      "entregas": {
+        "programadas": 3,
+        "cumplidas": 3,
+        "tasa_cumplimiento": 100.0
+      },
+      "puntualidad_pago_cafeteria": "Atraso moderado (6-15 días)",
+      "calificacion_servicio_proveedor": 3.7,
+      "observaciones": "Se detectaron devoluciones por producto próximo a vencer (bajo rotación).",
+      "factor_demanda_relativo": 0.809
+    }
+  ]
+}

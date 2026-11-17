@@ -1,0 +1,20 @@
+# Caddyfile
+# Render provides the PORT env var, default a 10000
+:{$PORT:10000} {
+    # Redirigir WebSockets y eventos al backend de Reflex (puerto 8000)
+    handle /_event/* {
+        reverse_proxy localhost:8000
+    }
+
+    # Redirigir pings al backend
+    handle /ping/* {
+        reverse_proxy localhost:8000
+    }
+    
+    # Servir archivos estáticos del frontend
+    handle_path /* {
+        root * /app/public
+        file_server
+        try_files {path} {path}.html /404.html
+    }
+}

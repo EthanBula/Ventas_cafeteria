@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: cafeteria-agent
+    runtime: docker
+    plan: free # Puedes cambiar esto a starter o standard según tus necesidades
+    envVars:
+      - key: OPENAI_API_KEY # Recuerda configurar esta variable de entorno en el panel de Render
+        sync: false
